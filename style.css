@@ -1,0 +1,102 @@
+body {
+  background-image: url(DisneyCharacters.jpg);
+}
+
+#timer {
+  position: absolute;
+  top: 275px;
+  right: 450px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 24px;
+}
+
+.container,
+.input-font {
+  margin: auto;
+  padding: 100px;
+  padding-left: 60px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#intro {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.startButton {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  font-size: 100%;
+  width: 25%;
+  height: 35px;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 25px;
+  padding: 10px 24px;
+  cursor: pointer;
+  display: block;
+}
+
+.button {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 550px;
+  font-size: 100%;
+  width: 25%;
+  height: 35px;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 25px;
+  padding: 10px 24px;
+  cursor: pointer;
+  display: block;
+}
+
+.button:hover {
+  background-color: #8e3e67;
+}
+
+#scoreBtn {
+  margin-top: 225px;
+  margin-left: 750px;
+  font-size: 100%;
+  width: 10%;
+  height: 20%;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+#submit-score,
+#restart {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 100%;
+  width: 15%;
+  height: 35px;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 25px;
+}
+
+#results {
+  margin-top: -15%;
+  margin-left: -8%;
+}
+
+#quizQuestion {
+  margin-left: -5%;
+}
